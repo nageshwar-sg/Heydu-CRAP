@@ -14,9 +14,9 @@ const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(
 
     let variantStyles = "";
     if (variant === 'primary') {
-      variantStyles = "bg-[#A799D1] hover:bg-[#9688C0] text-white shadow-sm";
+      variantStyles = "bg-[#5A32A3] hover:bg-[#482685] text-white shadow-md";
     } else if (variant === 'secondary') {
-      variantStyles = "bg-gray-100 hover:bg-gray-200 text-gray-[#2D2A6E]";
+      variantStyles = "bg-gray-100 hover:bg-gray-200 text-[#2D2A6E]";
     } else if (variant === 'text') {
       variantStyles = "bg-transparent text-[#5A32A3] hover:text-[#482685] hover:bg-purple-50";
     }
