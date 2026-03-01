@@ -55,7 +55,12 @@ const SignIn = () => {
           />
 
           <div className="pt-4">
-            <Button type="submit" showArrow className="w-full py-4 text-base shadow-lg shadow-purple-500/20">
+            <Button
+              type="submit"
+              showArrow
+              className="w-full py-4 text-base shadow-lg shadow-purple-500/20"
+              disabled={!email}
+            >
               Send OTP
             </Button>
           </div>

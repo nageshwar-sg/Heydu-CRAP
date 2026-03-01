@@ -63,7 +63,12 @@ const SignUpOtp = () => {
           </div>
 
           <div className="pt-6">
-            <Button type="submit" showArrow className="w-full py-4 text-base shadow-lg shadow-purple-500/20">
+            <Button
+              type="submit"
+              showArrow
+              className="w-full py-4 text-base shadow-lg shadow-purple-500/20"
+              disabled={otp.length !== 6}
+            >
               Verify & Sign Up
             </Button>
           </div>
