@@ -44,7 +44,7 @@ const OTPInput: React.FC<OTPInputProps> = ({ length = 6, value, onChange }) => {
   }, [activeOTPIndex]);
 
   return (
-    <div className="flex justify-between items-center w-full gap-2">
+    <div className="flex justify-center items-center gap-3">
       {Array(length).fill('').map((_, index) => {
         return (
           <React.Fragment key={index}>

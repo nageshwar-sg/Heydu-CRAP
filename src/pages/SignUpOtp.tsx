@@ -57,7 +57,7 @@ const SignUpOtp = () => {
 
           <div className="space-y-4">
             <label className="text-base font-bold text-gray-700 ml-1">Enter OTP</label>
-            <div className="flex justify-center scale-110 origin-center py-2">
+            <div className="flex justify-center py-2">
                <OTPInput value={otp} onChange={setOtp} />
             </div>
           </div>
