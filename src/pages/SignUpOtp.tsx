@@ -55,7 +55,7 @@ const SignUpOtp = () => {
             We sent a 6-digit code to <br/> <span className="font-bold text-[#5A32A3]">{email}</span>
           </div>
 
-          <div className="space-y-4">
+          <div className="space-y-3">
             <label className="text-base font-bold text-gray-700 ml-1">Enter OTP</label>
             <OTPInput value={otp} onChange={setOtp} />
           </div>
