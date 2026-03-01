@@ -44,14 +44,14 @@ const OTPInput: React.FC<OTPInputProps> = ({ length = 6, value, onChange }) => {
   }, [activeOTPIndex]);
 
   return (
-    <div className="flex justify-center items-center gap-3">
+    <div className="flex justify-between items-center w-full gap-2 md:gap-4">
       {Array(length).fill('').map((_, index) => {
         return (
           <React.Fragment key={index}>
             <input
               ref={index === activeOTPIndex ? inputRef : null}
               type="text"
-              className="w-10 h-12 md:w-12 md:h-14 border border-gray-300 rounded-lg text-center font-semibold text-lg text-gray-900 focus:border-[#5A32A3] focus:ring-1 focus:ring-[#5A32A3] outline-none transition-all selection:bg-transparent"
+              className="flex-1 aspect-square max-w-[64px] border border-gray-300 rounded-xl text-center font-bold text-xl md:text-2xl text-gray-900 focus:border-[#5A32A3] focus:ring-4 focus:ring-purple-500/10 outline-none transition-all selection:bg-transparent shadow-sm"
               value={value[index] || ''}
               onChange={(e) => handleOnChange(e, index)}
               onKeyDown={(e) => handleOnKeyDown(e, index)}
