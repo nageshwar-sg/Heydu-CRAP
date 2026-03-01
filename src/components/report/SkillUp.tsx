@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Award, Calendar, DollarSign, ExternalLink, ChevronUp, ChevronDown } from 'lucide-react';
+import { Award, Calendar, ExternalLink, ChevronUp, ChevronDown } from 'lucide-react';
 import { GradientBackground } from './GradientBackground';
 
 const skillTracks = [

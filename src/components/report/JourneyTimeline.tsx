@@ -1,6 +1,6 @@
 import React from 'react';
 import { GradientBackground } from './GradientBackground';
-import { BookOpen, Briefcase, GraduationCap, Hand, Plane, Target, ChevronLeft, ChevronRight } from 'lucide-react';
+import { BookOpen, Briefcase, GraduationCap, Plane, Target, ChevronLeft, ChevronRight } from 'lucide-react';
 
 
 export const JourneyTimeline: React.FC = () => {

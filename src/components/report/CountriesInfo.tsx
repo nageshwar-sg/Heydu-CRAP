@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { GraduationCap, Landmark, Briefcase, ChevronDown, ChevronUp, ExternalLink, DollarSign, Building2 } from 'lucide-react';
+import { GraduationCap, Briefcase, ChevronDown, ChevronUp, ExternalLink, DollarSign, Building2 } from 'lucide-react';
 import { GradientBackground } from './GradientBackground';
 
 const countries = [

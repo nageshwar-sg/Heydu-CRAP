@@ -56,7 +56,7 @@ const ReportView: React.FC = () => {
             { id: 'countries', Component: CountriesInfo },
             { id: 'countries-extra', Component: CountriesInfoExtra },
             { id: 'thanks', Component: ThankYou },
-          ].map(({ id, Component }, index) => (
+          ].map(({ id, Component }) => (
             <div
               key={id}
               className="w-full md:w-[1000px] md:min-h-[1414px] bg-white md:shadow-2xl md:rounded-sm overflow-hidden flex flex-col relative transition-all duration-300"
